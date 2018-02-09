@@ -7,6 +7,6 @@ module FormsLab
     get '/' do
       erb :root
     end
-    
+
   end
 end
