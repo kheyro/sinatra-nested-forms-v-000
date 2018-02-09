@@ -26,7 +26,7 @@ module FormsLab
       @ship2 = Ship.new(params[:ship_name_2], params[:ship_type_2], params[:ship_booty_2])
 
       erb :"pirates/show"
-      
+
     end
 
   end
