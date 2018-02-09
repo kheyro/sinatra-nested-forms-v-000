@@ -8,6 +8,15 @@ class Ship
     @name = name
     @type = type
     @booty = booty
+    @@ship << self
+  end
+
+  def self.all
+    @@ship
+  end
+
+  def self.clear
+    @@ship.destroy
   end
 
 end
